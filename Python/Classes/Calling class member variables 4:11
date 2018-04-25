@@ -1,4 +1,6 @@
 class Car(object):
-    def __init__(self, my_car):
-        my_car = Car()
-    condition = "new"
+  condition = "new"
+
+my_car = Car()
+
+print my_car.condition
